@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystemSimulator", "Sol
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{D3429616-8433-493C-8B5D-7A0752B6778D}"
 	ProjectSection(SolutionItems) = preProject
+		..\lib\log4net.dll = ..\lib\log4net.dll
 		..\..\Simulation\Simulation.Core\bin\Release\Simulation.Core.dll = ..\..\Simulation\Simulation.Core\bin\Release\Simulation.Core.dll
 	EndProjectSection
 EndProject

@@ -27,7 +27,25 @@ namespace GameEngine
         /// <param name="gameTime"></param>
         protected override void Draw(GameTime gameTime)
         {
+            if (CurrentView == null)
+                return;
 
+            CurrentView.Draw(new ViewRenderingContext(this.GraphicsDevice, gameTime));
+        }
+
+        /// <summary>
+        /// Changes the current main view
+        /// </summary>
+        /// <param name="newView"></param>
+        public void ChangeCurrentView(View newView)
+        {
+            if (CurrentView != null)
+            {
+                CurrentView.Dispose();
+                CurrentView = null;
+            }
+
+            CurrentView = newView;
         }
     }
 }

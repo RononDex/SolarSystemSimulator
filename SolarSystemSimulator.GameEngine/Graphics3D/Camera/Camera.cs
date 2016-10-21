@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameEngine.Camera
+namespace GameEngine.Graphics3D.Camera
 {
     public abstract class Camera : GameComponent
     {

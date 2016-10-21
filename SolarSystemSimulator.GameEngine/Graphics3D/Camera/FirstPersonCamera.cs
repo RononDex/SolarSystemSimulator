@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SolarSystemSimulator.Camera
+namespace GameEngine.Graphics3D.Camera
 {
     class MouseControl
     {
