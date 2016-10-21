@@ -41,10 +41,10 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Graphics2D\UIController.cs" />
     <Compile Include="Graphics3D\Camera\Camera.cs" />
     <Compile Include="Graphics3D\Camera\FirstPersonCamera.cs" />
     <Compile Include="GameEngine.cs" />
-    <Compile Include="Graphics3D\View3D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View.cs" />
     <Compile Include="ViewContext.cs" />
@@ -63,7 +63,6 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Graphics2D\" />
     <Folder Include="UI\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
