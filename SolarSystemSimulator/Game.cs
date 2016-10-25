@@ -7,7 +7,7 @@ namespace SolarSystemSimulator
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
-    public class SolarSystemSimulator : Game
+    public class Game : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
@@ -19,7 +19,7 @@ namespace SolarSystemSimulator
 
         Model planetModel;
 
-        public SolarSystemSimulator()
+        public Game()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";

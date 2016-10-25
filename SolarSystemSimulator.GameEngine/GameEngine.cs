@@ -14,12 +14,20 @@ namespace GameEngine
     /// </summary>
     public class GameEngine : Game
     {
+        GraphicsDeviceManager graphics;
+
         /// <summary>
         /// All objects that are beeing rendered ingame are in this collection
         /// </summary>
         public List<Model> Objects { get; set; }
 
         public View CurrentView { get; private set; }
+
+        public GameEngine(string contentRootDirectory = "Content")
+        {
+            graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = contentRootDirectory;
+        }
 
         /// <summary>
         /// Updates the applications rendering
@@ -30,6 +38,8 @@ namespace GameEngine
             if (CurrentView == null)
                 return;
 
+            CurrentView.GraphicsDevice = this.GraphicsDevice;
+            CurrentView.Content = this.Content;
             CurrentView.Draw(new ViewRenderingContext(this.GraphicsDevice, gameTime));
         }
 
@@ -46,6 +56,7 @@ namespace GameEngine
             }
 
             CurrentView = newView;
+            newView.Initialize();
         }
     }
 }

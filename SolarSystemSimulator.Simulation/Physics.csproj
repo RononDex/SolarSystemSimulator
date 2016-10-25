@@ -7,8 +7,8 @@
     <ProjectGuid>{8AF1F8EC-A77B-4366-909A-ECBB02138B19}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Simulation.GravityEngine</RootNamespace>
-    <AssemblyName>GravityEngine</AssemblyName>
+    <RootNamespace>Simulation.Physics</RootNamespace>
+    <AssemblyName>Physics</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Simulation.Core">
+      <HintPath>..\lib\Simulation.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,8 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Math\Vector3D.cs" />
+    <Compile Include="Objects\PhysicsObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Engines\NewtonianGravityEngine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SolarSystemSimulator.GameEngine\GameEngine.csproj">
+      <Project>{db1e0c4f-3ea9-49f0-9928-12ccb7122c2d}</Project>
+      <Name>GameEngine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SolarSystemSimulator.Views;
+using System;
 
 namespace SolarSystemSimulator
 {
@@ -14,8 +15,12 @@ namespace SolarSystemSimulator
         [STAThread]
         static void Main()
         {
-            using (var game = new SolarSystemSimulator())
-                game.Run();
+            using (var game = new GameEngine.GameEngine())
+            {
+                game.RunOneFrame();
+                game.ChangeCurrentView(new TestView());
+                game.Run();                
+            }
         }
     }
 #endif

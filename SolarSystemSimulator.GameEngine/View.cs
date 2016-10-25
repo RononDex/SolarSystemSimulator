@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -14,11 +16,12 @@ namespace GameEngine
             throw new NotImplementedException();
         }
 
-        public virtual void Draw(ViewRenderingContext context) { }
+        public abstract void Draw(ViewRenderingContext context);
 
-        public virtual void Initialize()
-        {
+        public abstract void Initialize();
 
-        }
+        public GraphicsDevice GraphicsDevice { get; set; }
+
+        public ContentManager Content { get; set; }
     }
 }
