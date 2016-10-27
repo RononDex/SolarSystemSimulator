@@ -14,7 +14,7 @@ namespace GameEngine
     /// </summary>
     public class GameEngine : Game
     {
-        GraphicsDeviceManager graphics;
+        public GraphicsDeviceManager Graphics { get; private set; }
 
         /// <summary>
         /// All objects that are beeing rendered ingame are in this collection
@@ -23,10 +23,17 @@ namespace GameEngine
 
         public View CurrentView { get; private set; }
 
-        public GameEngine(string contentRootDirectory = "Content")
+        public GameEngine(GameEngineSettings settings)
         {
-            graphics = new GraphicsDeviceManager(this);
-            Content.RootDirectory = contentRootDirectory;
+            Graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = settings.ContentDirectoryRoot;
+
+            // Run one frame, to make sure everything is initialized properly
+            this.RunOneFrame();
+
+            // Set the first view and initialize it
+            if (settings.StartView != null)
+                ChangeCurrentView(settings.StartView);
         }
 
         /// <summary>
@@ -40,7 +47,7 @@ namespace GameEngine
 
             CurrentView.GraphicsDevice = this.GraphicsDevice;
             CurrentView.Content = this.Content;
-            CurrentView.Draw(new ViewRenderingContext(this.GraphicsDevice, gameTime));
+            CurrentView.Draw(new ViewRenderingContext(gameTime));
         }
 
         /// <summary>
@@ -56,7 +63,7 @@ namespace GameEngine
             }
 
             CurrentView = newView;
-            newView.Initialize();
+            newView.Initialize(this);
         }
     }
 }

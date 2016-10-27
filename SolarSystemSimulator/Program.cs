@@ -15,10 +15,8 @@ namespace SolarSystemSimulator
         [STAThread]
         static void Main()
         {
-            using (var game = new GameEngine.GameEngine())
+            using (var game = new GameEngine.GameEngine( new GameEngine.GameEngineSettings() { StartView = new TestView() } ))
             {
-                game.RunOneFrame();
-                game.ChangeCurrentView(new TestView());
                 game.Run();                
             }
         }

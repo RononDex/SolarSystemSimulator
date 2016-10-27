@@ -11,7 +11,6 @@ namespace SolarSystemSimulator.Views
 {
     public class TestView : View
     {
-        SpriteBatch spriteBatch;
         Model planetModel;
 
         private Matrix world = Matrix.CreateTranslation(new Vector3(0, 0, 0));
@@ -41,9 +40,10 @@ namespace SolarSystemSimulator.Views
             }
         }
 
-        public override void Initialize()
+        public override void Initialize(GameEngine.GameEngine engine)
         {
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+            base.Initialize(engine);
+
             this.planetModel = Content.Load<Model>("sphere");
         }
     }

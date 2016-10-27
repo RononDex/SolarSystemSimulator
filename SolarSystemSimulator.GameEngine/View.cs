@@ -18,7 +18,10 @@ namespace GameEngine
 
         public abstract void Draw(ViewRenderingContext context);
 
-        public abstract void Initialize();
+        public virtual void Initialize(GameEngine engine)
+        {
+            this.Content = engine.Content;
+        }
 
         public GraphicsDevice GraphicsDevice { get; set; }
 

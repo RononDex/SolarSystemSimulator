@@ -15,6 +15,11 @@ namespace GameEngine.Graphics3D.Camera
         public Matrix ViewMatrix { get; set; }
 
         /// <summary>
+        /// The Projection Matrix
+        /// </summary>
+        public Matrix ProjectionMatrix { get; set; }
+
+        /// <summary>
         /// The position of the camera in the 3d world
         /// </summary>
         public Vector3 Position { get; set; }
