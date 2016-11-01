@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using GameEngine.Graphics3D;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,11 @@ namespace GameEngine
         public GraphicsDeviceManager Graphics { get; private set; }
 
         /// <summary>
+        /// Modelloader, used to load model assets (cached)
+        /// </summary>
+        public ModelLoader ModelLoader { get; set; }
+
+        /// <summary>
         /// All objects that are beeing rendered ingame are in this collection
         /// </summary>
         public List<Model> Objects { get; set; }
@@ -27,6 +33,8 @@ namespace GameEngine
         {
             Graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = settings.ContentDirectoryRoot;
+
+            this.ModelLoader = new ModelLoader(this.Content);
 
             // Run one frame, to make sure everything is initialized properly
             this.RunOneFrame();
@@ -45,8 +53,6 @@ namespace GameEngine
             if (CurrentView == null)
                 return;
 
-            CurrentView.GraphicsDevice = this.GraphicsDevice;
-            CurrentView.Content = this.Content;
             CurrentView.Draw(new ViewRenderingContext(gameTime));
         }
 
@@ -60,6 +66,7 @@ namespace GameEngine
             {
                 CurrentView.Dispose();
                 CurrentView = null;
+                ModelLoader.ClearCache();
             }
 
             CurrentView = newView;

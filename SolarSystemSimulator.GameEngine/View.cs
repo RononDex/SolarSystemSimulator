@@ -20,11 +20,7 @@ namespace GameEngine
 
         public virtual void Initialize(GameEngine engine)
         {
-            this.Content = engine.Content;
+            
         }
-
-        public GraphicsDevice GraphicsDevice { get; set; }
-
-        public ContentManager Content { get; set; }
     }
 }

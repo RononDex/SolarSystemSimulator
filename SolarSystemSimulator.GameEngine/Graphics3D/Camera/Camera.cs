@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GameEngine.Graphics3D.Camera
 {
-    public abstract class Camera : GameComponent
+    public class Camera : GameComponent
     {
         /// <summary>
         /// The view matrix of the camera

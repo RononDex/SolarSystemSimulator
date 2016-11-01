@@ -88,9 +88,10 @@ namespace GameEngine.Graphics3D
                         // as our camera and projection.
                         //if (this.GetType() != typeof(SkyModel))
                         //    effect.EnableDefaultLighting();
-                        effect.World = transforms[mesh.ParentBone.Index] * World;
+                        effect.EnableDefaultLighting();
+                        effect.World = World;
                         effect.View = camera.ViewMatrix;
-                        effect.Projection = camera.ProjectionMatrix;
+                        effect.Projection = camera.ProjectionMatrix;                        
                     }
                 }
 

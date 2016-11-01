@@ -1,4 +1,3 @@
-C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\obj\Debug\Physics.csprojResolveAssemblyReference.cache
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\bin\Debug\Physics.dll
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\bin\Debug\Physics.pdb
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\bin\Debug\GameEngine.dll
@@ -25,5 +24,6 @@ C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\bin\Debug\SharpDX.XInput.xml
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\bin\Debug\SharpDX.RawInput.xml
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\obj\Debug\Physics.csprojResolveAssemblyReference.cache
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\obj\Debug\Physics.dll
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\obj\Debug\Physics.pdb
