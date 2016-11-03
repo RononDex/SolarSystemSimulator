@@ -20,6 +20,6 @@ C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.GameEngine
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.GameEngine\bin\Windows\x86\Debug\SharpDX.XInput.xml
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.GameEngine\bin\Windows\x86\Debug\SharpDX.RawInput.xml
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.GameEngine\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
-C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.GameEngine\obj\x86\Debug\GameEngine.csprojResolveAssemblyReference.cache
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.GameEngine\obj\x86\Debug\GameEngine.dll
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.GameEngine\obj\x86\Debug\GameEngine.pdb
+C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.GameEngine\obj\x86\Debug\GameEngine.csprojResolveAssemblyReference.cache

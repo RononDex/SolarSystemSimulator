@@ -27,3 +27,4 @@ C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Window
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Windows\x86\Debug\Content\Planets\sphere.xnb
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Windows\x86\Debug\GameEngine.dll
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Windows\x86\Debug\GameEngine.pdb
+C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Windows\x86\Debug\Content\Planets\jupiter.xnb

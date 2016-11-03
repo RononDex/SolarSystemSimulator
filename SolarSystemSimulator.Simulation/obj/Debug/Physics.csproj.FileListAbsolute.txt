@@ -27,3 +27,5 @@ C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\obj\Debug\Physics.csprojResolveAssemblyReference.cache
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\obj\Debug\Physics.dll
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\obj\Debug\Physics.pdb
+C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\bin\Debug\Physics.dll.CodeAnalysisLog.xml
+C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator.Simulation\bin\Debug\Physics.dll.lastcodeanalysissucceeded

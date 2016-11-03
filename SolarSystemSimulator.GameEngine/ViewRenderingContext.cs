@@ -13,11 +13,11 @@ namespace GameEngine
     /// </summary>
     public class ViewRenderingContext
     {
-        public GameTime GameTIme { get; private set; }
+        public GameTime GameTime { get; private set; }
 
         public ViewRenderingContext(GameTime gameTime)
         {
-            this.GameTIme = gameTime;
+            this.GameTime = gameTime;
         }
     }
 }

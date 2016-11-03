@@ -91,7 +91,11 @@ namespace GameEngine.Graphics3D
                         effect.EnableDefaultLighting();
                         effect.World = World;
                         effect.View = camera.ViewMatrix;
-                        effect.Projection = camera.ProjectionMatrix;                        
+                        effect.Projection = camera.ProjectionMatrix;
+
+                        effect.DirectionalLight0.DiffuseColor = new Vector3(0, 0, 0);
+                        effect.DirectionalLight0.Direction = Vector3.UnitX;
+                        effect.DirectionalLight0.SpecularColor = new Vector3(1, 1, 1);
                     }
                 }
 

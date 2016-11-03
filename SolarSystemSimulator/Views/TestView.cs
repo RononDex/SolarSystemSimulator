@@ -14,8 +14,10 @@ namespace SolarSystemSimulator.Views
     { 
         public override void Draw(ViewRenderingContext context)
         {
-            //GraphicsDevice.Clear(Color.Black);
             base.Draw(context);
+
+            var rotationalPeriod = 0.5;
+            this.Manager3D.Camera.Position = Vector3.Transform(this.Manager3D.Camera.Position - this.Manager3D.Camera.Target, Matrix.CreateFromAxisAngle(Vector3.UnitY, Convert.ToSingle((context.GameTime.TotalGameTime.TotalMilliseconds % rotationalPeriod) / (2 * Math.PI)))) + this.Manager3D.Camera.Target;
         }
 
         public override void Initialize(GameEngine.GameEngine engine)

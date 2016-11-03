@@ -23,7 +23,7 @@ namespace GameEngine.Graphics3D
 
         public override void Draw(ViewRenderingContext context)
         {
-            this.Manager3D.Draw(context.GameTIme);
+            this.Manager3D.Draw(context.GameTime);
         }
     }
 }

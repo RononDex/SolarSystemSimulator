@@ -30,7 +30,7 @@ namespace GameEngine.Graphics3D
         public override void Initialize()
         {
             base.Initialize();
-            this.Camera = new Camera.Camera(Engine, new Vector3(0, 0, 10), new Vector3(0, 0, 0), Vector3.UnitY);
+            this.Camera = new Camera.Camera(Engine, new Vector3(0, 0, 3), new Vector3(0, 0, 0), Vector3.UnitY);
             this.Camera.ProjectionMatrix = Matrix.CreatePerspectiveFieldOfView(MathHelper.ToRadians(90), 800f / 480f, 0.1f, 100f);
             depthStencilState.DepthBufferEnable = true;
             depthStencilState.DepthBufferWriteEnable = true;
@@ -38,6 +38,7 @@ namespace GameEngine.Graphics3D
 
         public override void Draw(GameTime gameTime)
         {
+            GraphicsDevice.Clear(Color.Black);
             // Ensure that all necassery render/raster/stencil etc. states for 3D-rendering are set to the Device
             SetRenderState();
             // Draw all visible 3D-components of the current scene
