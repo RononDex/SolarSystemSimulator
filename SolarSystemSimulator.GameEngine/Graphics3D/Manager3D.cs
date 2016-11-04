@@ -38,7 +38,6 @@ namespace GameEngine.Graphics3D
 
         public override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Black);
             // Ensure that all necassery render/raster/stencil etc. states for 3D-rendering are set to the Device
             SetRenderState();
             // Draw all visible 3D-components of the current scene

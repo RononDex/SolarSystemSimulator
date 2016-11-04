@@ -32,3 +32,9 @@
 /processorParam:TextureFormat=DxtCompressed
 /build:Planets/sphere.fbx
 
+#begin Fonts/DefaultFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:TextureFormat=Compressed
+/build:Fonts/DefaultFont.spritefont
+
