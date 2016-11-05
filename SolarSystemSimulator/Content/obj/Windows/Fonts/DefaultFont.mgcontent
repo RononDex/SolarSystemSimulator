@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Fonts/DefaultFont.spritefont</SourceFile>
-  <SourceTime>2016-11-04T14:05:44.264149+01:00</SourceTime>
-  <DestFile>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/bin/Windows/Fonts/DefaultFont.xnb</DestFile>
-  <DestTime>2016-11-04T17:23:22.9183469+01:00</DestTime>
+  <SourceFile>C:/Users/daniel.emig/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Fonts/DefaultFont.spritefont</SourceFile>
+  <SourceTime>2016-11-05T01:26:08.5336106+01:00</SourceTime>
+  <DestFile>C:/Users/daniel.emig/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/bin/Windows/Fonts/DefaultFont.xnb</DestFile>
+  <DestTime>2016-11-05T01:59:28.6812553+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2016-03-30T08:36:08+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
