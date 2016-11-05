@@ -30,8 +30,8 @@ namespace GameEngine.Graphics3D
         public override void Initialize()
         {
             base.Initialize();
-            this.Camera = new Camera.Camera(Engine, new Vector3(0, 0, 3), new Vector3(0, 0, 0), Vector3.UnitY);
-            this.Camera.ProjectionMatrix = Matrix.CreatePerspectiveFieldOfView(MathHelper.ToRadians(90), 800f / 480f, 0.1f, 100f);
+            this.Camera = new Camera.Camera(Engine, new Vector3(0, 0, 100), new Vector3(0, 0, 0), Vector3.UnitY);
+            this.Camera.ProjectionMatrix = Matrix.CreatePerspectiveFieldOfView(MathHelper.ToRadians(70), 800f / 480f, 0.1f, 1000f);
             depthStencilState.DepthBufferEnable = true;
             depthStencilState.DepthBufferWriteEnable = true;
         }
