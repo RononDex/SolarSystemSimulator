@@ -4,8 +4,9 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/daniel.emig/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Planets/sphere.fbx</File>
-    <File>C:/Users/daniel.emig/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Fonts/DefaultFont.spritefont</File>
-    <File>C:/Users/daniel.emig/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Test/ASP_Elite_Dangerous.x</File>
+    <File>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Planets/sphere.fbx</File>
+    <File>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Fonts/DefaultFont.spritefont</File>
+    <File>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Test/ASP_Elite_Dangerous.x</File>
+    <File>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Effects/Test.fx</File>
   </SourceFiles>
 </SourceFileCollection>

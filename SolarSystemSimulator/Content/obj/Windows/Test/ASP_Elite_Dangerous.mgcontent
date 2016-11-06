@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/daniel.emig/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Test/ASP_Elite_Dangerous.x</SourceFile>
-  <SourceTime>2016-11-05T01:26:08.604439+01:00</SourceTime>
-  <DestFile>C:/Users/daniel.emig/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/bin/Windows/Test/ASP_Elite_Dangerous.xnb</DestFile>
-  <DestTime>2016-11-05T01:59:29.489247+01:00</DestTime>
+  <SourceFile>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Test/ASP_Elite_Dangerous.x</SourceFile>
+  <SourceTime>2016-11-05T13:15:42.0023175+01:00</SourceTime>
+  <DestFile>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/bin/Windows/Test/ASP_Elite_Dangerous.xnb</DestFile>
+  <DestTime>2016-11-05T13:17:52.1278353+01:00</DestTime>
   <Importer>OpenAssetImporter</Importer>
   <ImporterTime>2016-03-30T08:36:08+02:00</ImporterTime>
   <Processor>ModelProcessor</Processor>

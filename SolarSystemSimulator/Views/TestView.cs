@@ -30,7 +30,7 @@ namespace SolarSystemSimulator.Views
             fpsDisplay.Position = new Vector2(10, 10);
             this.UIController.Controls.AddControl(fpsDisplay);
 
-			var shader = engine.Content.Load<Effect>("Test/Celshade");//SHADER
+			var shader = engine.Content.Load<Effect>("Effects/Test");//SHADER
 			var planetModel = engine.ModelLoader.Load3DModel("Test/ASP_Elite_Dangerous");
             this.Manager3D.Objects3D.Add(new Object3D(planetModel) { Position = new Vector3(), Up = Vector3.UnitY, Forward = Vector3.UnitZ, Visible = true, Scale = new Vector3(1,1,1), Shader = shader });
 			

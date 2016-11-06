@@ -72,9 +72,9 @@ namespace GameEngine.Graphics3D
                     foreach (ModelMeshPart part in mesh.MeshParts)
                     {
                         part.Effect = this.Shader;
-                        this.Shader.Parameters["World"].SetValue(transforms[mesh.ParentBone.Index] * World);
-                        this.Shader.Parameters["ViewMatrx"].SetValue(camera.ViewMatrix);
-                        this.Shader.Parameters["ProjectionMatrix"].SetValue(camera.ProjectionMatrix);
+                        this.Shader.Parameters["WorldViewProjection"].SetValue(World * camera.ViewMatrix * camera.ProjectionMatrix);
+                        this.Shader.Parameters["ViewInverse"].SetValue(Matrix.Invert(camera.ViewMatrix));
+                        //this.Shader.Parameters["ProjectionMatrix"].SetValue(camera.ProjectionMatrix);
                         //TODO: Lösung für dynamische Parameter finden, die in der Draw() Methode berechnet werden müssten
                         //Matrix worldInverseTransposeMatrix = Matrix.Transpose(Matrix.Invert(transforms[mesh.ParentBone.Index] * world));
                         //this.Shader.Parameters["WorldInverseTranspose"].SetValue(worldInverseTransposeMatrix);

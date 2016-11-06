@@ -53,6 +53,7 @@
   <ItemGroup>
     <Content Include="Content\Effects\Celshade.fx" />
     <Content Include="Content\Effects\Scanline.fx" />
+    <Content Include="Content\Effects\Test.fx" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
