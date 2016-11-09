@@ -52,6 +52,8 @@
     <Compile Include="Graphics3D\Manager3D.cs" />
     <Compile Include="Graphics3D\ModelLoader.cs" />
     <Compile Include="Graphics3D\Object3D.cs" />
+    <Compile Include="Graphics3D\Shader.cs" />
+    <Compile Include="Graphics3D\ShaderRenderingContext.cs" />
     <Compile Include="Graphics3D\View3D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View.cs" />

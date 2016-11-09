@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Cobra/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Effects/Test.fx</SourceFile>
-  <SourceTime>2016-11-07T12:14:26.0055215+01:00</SourceTime>
-  <DestFile>C:/Users/Cobra/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/bin/Windows/Effects/Test.xnb</DestFile>
-  <DestTime>2016-11-07T12:15:54.3035551+01:00</DestTime>
+  <SourceFile>C:/Users/Cobra/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Effects/Test2.fx</SourceFile>
+  <SourceTime>2016-11-08T13:26:08.6791086+01:00</SourceTime>
+  <DestFile>C:/Users/Cobra/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/bin/Windows/Effects/Test2.xnb</DestFile>
+  <DestTime>2016-11-08T13:26:18.0974498+01:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2016-03-30T08:36:08+02:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

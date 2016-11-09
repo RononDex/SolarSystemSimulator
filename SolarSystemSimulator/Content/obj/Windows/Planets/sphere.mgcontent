@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Planets/sphere.fbx</SourceFile>
-  <SourceTime>2016-11-05T13:15:41.934241+01:00</SourceTime>
-  <DestFile>C:/Users/tinoh/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/bin/Windows/Planets/sphere.xnb</DestFile>
-  <DestTime>2016-11-05T13:17:50.8814757+01:00</DestTime>
+  <SourceFile>C:/Users/Cobra/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/Planets/sphere.fbx</SourceFile>
+  <SourceTime>2016-11-07T12:14:26.0211455+01:00</SourceTime>
+  <DestFile>C:/Users/Cobra/Source/Repos/SolarSystemSimulator/SolarSystemSimulator/Content/bin/Windows/Planets/sphere.xnb</DestFile>
+  <DestTime>2016-11-07T12:15:52.6855481+01:00</DestTime>
   <Importer>FbxImporter</Importer>
   <ImporterTime>2016-03-30T08:36:08+02:00</ImporterTime>
   <Processor>ModelProcessor</Processor>
