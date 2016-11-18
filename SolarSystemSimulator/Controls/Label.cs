@@ -1,16 +1,21 @@
 ﻿using GameEngine.Graphics2D;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 
 namespace SolarSystemSimulator.Controls
 {
-    public class FPSDisplay : Control
+    public class Label : Control
     {
+		/// <summary>
+        /// The text to render
+        /// </summary>
+        public string Text { get; set; } = "";
+
         /// <summary>
         /// The font that is used to render the text
         /// </summary>
@@ -33,7 +38,7 @@ namespace SolarSystemSimulator.Controls
             base.Draw(gameTime, controller);
 
             controller.SpriteBatch.Begin();
-            controller.SpriteBatch.DrawString(Font, string.Format("FPS: {0:0.0}", (1000 / gameTime.ElapsedGameTime.TotalMilliseconds)), this.Position, this.Color, 0f, new Vector2(), 1f, SpriteEffects.None, 0.0f);
+            controller.SpriteBatch.DrawString(Font, this.Text, this.Position, this.Color, 0f, new Vector2(), 1f, SpriteEffects.None, 0.0f);
             controller.SpriteBatch.End();
         }
     }
