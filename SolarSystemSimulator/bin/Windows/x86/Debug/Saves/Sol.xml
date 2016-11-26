@@ -5,7 +5,7 @@
       <Type>PLANET</Type>
       <Properties>
         <Property Name="Name" Value="Sun" />
-        <Property Name="Mass" Value="1.98855E30" />
+        <Property Name="Mass" Value="5.972E24" />
         <Property Name="Position" Value="0;0;0" />
         <Property Name="Velocity" Value="0;0;0" />
       </Properties>

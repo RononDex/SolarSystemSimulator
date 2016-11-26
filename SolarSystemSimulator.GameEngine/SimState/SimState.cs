@@ -6,14 +6,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace SolarSystemSimulator.SimStates
+namespace GameEngine.SimState
 {
     [Serializable]
+    [XmlRoot("SimState")]
     public class SimState
     {
         /// <summary>
         /// Holds a list of all the simulation objects
         /// </summary>
+        [XmlArray("SimObjects")]
+        [XmlArrayItem("SimObject")]
         public List<SimObject> Objects { get; set; }
 
         /// <summary>

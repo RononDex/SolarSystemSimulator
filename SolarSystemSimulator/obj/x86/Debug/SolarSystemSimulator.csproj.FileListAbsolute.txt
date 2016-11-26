@@ -97,3 +97,4 @@ C:\Users\tinoh\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Window
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Windows\x86\Debug\Content\Effects\Test.xnb
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Windows\x86\Debug\Content\Test\ASP_Elite_Dangerous.xnb
 C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Windows\x86\Debug\Content\Effects\Test2.xnb
+C:\Users\Cobra\Source\Repos\SolarSystemSimulator\SolarSystemSimulator\bin\Windows\x86\Debug\Saves\Sol.xml

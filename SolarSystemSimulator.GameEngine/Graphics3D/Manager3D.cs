@@ -14,14 +14,23 @@ namespace GameEngine.Graphics3D
     /// </summary>
     public class Manager3D : DrawableGameComponent
     {
+        /// <summary>
+        /// A reference to the GameEngine instance
+        /// </summary>
         private GameEngine Engine { get; set; }
 
+        /// <summary>
+        /// Holds all the 3D objects that are in the current scene
+        /// </summary>
         public List<IDrawableObject3D> Objects3D { get; set; } = new List<IDrawableObject3D>();
 
         DepthStencilState depthStencilState = new DepthStencilState();
 
+        /// <summary>
+        /// The camera that is used to render the scene
+        /// </summary>
         public Camera.Camera Camera { get; set; }
-
+        
         public Manager3D(GameEngine engine) : base(engine)
         {
             this.Engine = engine;

@@ -56,6 +56,10 @@
     <Compile Include="Graphics3D\ShaderRenderingContext.cs" />
     <Compile Include="Graphics3D\View3D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimState\ObjectType.cs" />
+    <Compile Include="SimState\SimObject.cs" />
+    <Compile Include="SimState\SimProperty.cs" />
+    <Compile Include="SimState\SimState.cs" />
     <Compile Include="View.cs" />
     <Compile Include="ViewRenderingContext.cs" />
   </ItemGroup>

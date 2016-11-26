@@ -41,8 +41,7 @@
     <Compile Include="Controls\FPSDisplay.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimStates\SimObject.cs" />
-    <Compile Include="SimStates\SimState.cs" />
+    <Compile Include="Views\TestSimView.cs" />
     <Compile Include="Views\TestView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,7 +57,9 @@
     <Content Include="Content\Effects\Test.fx" />
     <Content Include="Content\Effects\Test2.fx" />
     <Content Include="Icon.ico" />
-    <Content Include="Saves\Sol.xml" />
+    <Content Include="Saves\Sol.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
